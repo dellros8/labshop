@@ -1,0 +1,49 @@
+#firstthree {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+#lastthree {
+    display: flex;
+    justify-content: space-around;
+}
+
+#productone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+
+#producttwo {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
+
+#productthree {
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+}
+
+#productfour {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+}
+
+#productfive {
+    height: 400px;
+    width: 400px;
+    background-color: turquoise;
+}
+
+#productsix {
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+}
