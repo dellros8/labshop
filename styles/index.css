@@ -26,7 +26,7 @@ li a {
     text-decoration: none;
 }
 
-span {
+.requiredred {
     color: red;
 }
 

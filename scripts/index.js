@@ -2,42 +2,42 @@ let apple = {
     productname:"Apple",
     price:400,
     description:"This is an apple",
-    image:"images/apple.png"
+    image:"../images/apple.png"
 };
 
 let pear = {
     productname:"Pear",
     price:600,
     description:"This is a pear",
-    image:"images/pear.png"
+    image:"../images/pear.png"
 };
 
 let orange = {
     productname:"Orange",
     price:500,
     description:"This is an orange",
-    image:"images/orange.png"
+    image:"../images/orange.png"
 };
 
 let lime = {
     productname:"Lime",
     price:800,
     description:"This is a lime",
-    image:"images/lime.png"
+    image:"../images/lime.png"
 };
 
 let melon = {
     productname:"Melon",
     price:500,
     description:"This is a melon",
-    image:"images/melon.png"
+    image:"../images/melon.png"
 };
 
 let grapes = {
     productname:"Grapes",
     price:1000,
     description:"This is grapes",
-    image:"images/grapes.png"
+    image:"../images/grapes.png"
 };
 
 let objectsArray = [apple, pear, orange, lime, melon, grapes];
