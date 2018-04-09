@@ -12,12 +12,17 @@
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="index.html">Products</a></li>
-        <li><a href="checkout.html"><i class="fas fa-shopping-cart"></i>(2)</a></li>
+        <li><a href="checkout.html"><i class="fas fa-shopping-cart"></i>(<span class="cartnumber"></span>)</a></li>
     </ul>
 </nav>
 
+
+<div id="cartlist">
+
+</div>
+
 <main id="checkoutmain">
-    <form onsubmit="return validateForm()">
+    <form>
         <label for="inputone">First name<span class="requiredred"> *</span></label>
         <input type="text" id="inputone">
 
@@ -46,6 +51,14 @@
     </form>
 </main>
 
-<script src="../scripts/index.js"></script>
+<script src="../jquery/jquery-3.3.1.min.js"></script>
+<script src="../scripts/checkout.js"></script>
+<style>
+    .productdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+</style>
 </body>
 </html>
